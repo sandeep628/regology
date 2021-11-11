@@ -1,0 +1,24 @@
+.comment-box {
+  text-align: left;
+}
+
+.children-section {
+  margin-left: 40px;
+}
+
+.comment-text, .actions-section {
+  margin-bottom: 16px;
+}
+
+.bottom-spacing {
+  margin-bottom: 8px;
+}
+
+.bullet {
+  margin-right: 6px;
+}
+
+.input-box textarea {
+  width: 98%;
+  height: 60px;
+}
