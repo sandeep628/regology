@@ -6,7 +6,7 @@ class CommentsComponent extends Component {
   static propTypes = {
     comment: PropTypes.any,
     isChild: PropTypes.bool,
-    updateComment: PropTypes.func,
+    // updateComment: PropTypes.func,
   };
 
   state = {
@@ -15,9 +15,9 @@ class CommentsComponent extends Component {
     reply: '',
   };
 
-  updateComment = (children) => {
-    const {updateComment} = this.props;
-  }
+  // updateComment = (children) => {
+  //   const {updateComment} = this.props;
+  // }
 
   handleReply = (e) => {
     this.setState({
